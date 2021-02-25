@@ -2808,10 +2808,37 @@ div.sdk__container:nth-child(6)>div:nth-child(1)>img:nth-child(6) {
     }
 
     .sdk__recommendation {
-        height: 600px;
+        height: 530px;
     }
 
     .sdk__footer ul li {
         margin-left: 0;
+    }
+
+    .sdk__conditions-link p {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 23px;
+        margin-bottom: 25px;
+    }
+
+    .sdk__conditions-table h6 {
+        width: 90%;
+    }
+
+    .sdk__recommendation-text p {
+        font-size: 1.4rem;
+    }
+
+    div.sdk__container:nth-child(6)>div:nth-child(1)>p:nth-child(3) {
+        font-size: 1.4rem;
+    }
+
+    .sdk__conditions-table {
+        padding: 30px 0;
+    }
+
+    .mobile .slick-arrow {
+        bottom: -20%;
     }
 }
