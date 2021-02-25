@@ -2841,4 +2841,17 @@ div.sdk__container:nth-child(6)>div:nth-child(1)>img:nth-child(6) {
     .mobile .slick-arrow {
         bottom: -20%;
     }
+    .sdk__conditions-line p {
+        font-size: 1.4rem;
+        position: static;
+        width: 150px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        }
+        .sdk__conditions-line-cost {
+        margin-bottom: 15px;
+        }
+        .sdk__conditions-line {
+        height: 280px;
+        }
 }
