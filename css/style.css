@@ -576,13 +576,13 @@ div.sdk__conditions-line:nth-child(3) {
 
 .sdk__application-network {
     position: absolute;
-    left: 0;
+    left: -5%;
     top: 0;
 }
 
 .sdk__application-network-right {
     position: absolute;
-    right: 0;
+    right: -5%;
     top: 0;
 }
 
@@ -978,19 +978,13 @@ div.sdk__container:nth-child(6)>div:nth-child(1)>img:nth-child(6) {
     display: none;
 }
 
-/* .slider__item {
-    padding: 0px ;
-    text-align: center;
-  }
-  
-  .slider__item img {
-    max-width: 100%;
-  } */
 
 .sdk__img-mobile {
     display: none;
 }
-
+.click{
+    margin: 25px 0 25px 130px;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1170px) {
     .sdk__container {
@@ -1070,7 +1064,7 @@ div.sdk__container:nth-child(6)>div:nth-child(1)>img:nth-child(6) {
     }
 
     .sdk__main-btn {
-        margin-left: -120px;
+        margin-left: -140px;
         margin-top: 20px;
     }
 
@@ -1498,6 +1492,19 @@ div.sdk__container:nth-child(6)>div:nth-child(1)>img:nth-child(6) {
     .sdk__img-mobile {
         display: none;
     }
+    .click{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sdk__conditions-line-more {
+        top: 40%;
+        }
+        .sdk__conditions-line p {
+        top: 30%;
+        }
+        .sdk__conditions-line-figures {
+        top: 25%;
+        }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -2041,6 +2048,10 @@ div.sdk__container:nth-child(6)>div:nth-child(1)>img:nth-child(6) {
     }
 
     .sdk__recommendation-text {
+        margin-left: 0;
+    }
+    .click{
+        width: 100%;
         margin-left: 0;
     }
 }
@@ -2853,5 +2864,19 @@ div.sdk__container:nth-child(6)>div:nth-child(1)>img:nth-child(6) {
         }
         .sdk__conditions-line {
         height: 280px;
+        }
+        .click{
+            width: 100%;
+            margin-left: 0;
+        }
+        .slick-track {
+            padding-bottom: 150px;
+      }
+      .slick-prev, .slick-next {
+            padding-top: 200px;
+            position: absolute;
+      }
+      .mobile .slick-arrow {
+        bottom: -15%;
         }
 }
